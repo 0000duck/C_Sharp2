@@ -9,5 +9,5 @@
 	TestBackWK_Q : Learning background worker used Queue
 	TestProcessExit : Learning ProcessExited event
 	TestReadAllLine : Learning LINQ
-	TestchkText : Input string check
+	TestChkText : Learnig Input string check
 
