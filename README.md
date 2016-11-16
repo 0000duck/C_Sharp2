@@ -10,4 +10,4 @@
 	TestProcessExit : Learning ProcessExited event
 	TestReadAllLine : Learning LINQ
 	TestChkText : Learnig Input string check
-
+	TestWpfDataGrid : Learning WPF DataGirdView
