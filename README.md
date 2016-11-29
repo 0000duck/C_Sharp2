@@ -12,3 +12,4 @@
 	TestChkText : Learnig Input string check
 	TestWpfDataGrid : Learning WPF DataGirdView
 	TestDataGridDataTbl : Learning WPF DataGird and DataTable
+	TestPartial : Leaning Partial 
