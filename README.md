@@ -12,4 +12,6 @@
 	TestChkText : Learnig Input string check
 	TestWpfDataGrid : Learning WPF DataGirdView
 	TestDataGridDataTbl : Learning WPF DataGird and DataTable
-	TestPartial : Leaning Partial 
+	TestPartial : Learning Partial 
+	TestMyIEnamerable : Learning inherit IEnamerable
+

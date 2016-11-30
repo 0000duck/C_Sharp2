@@ -1,0 +1,14 @@
+﻿<Window x:Class="TestMyIEnumerable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestMyIEnumerable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="Btn_GetMyData" Content="GetMyData 5 Over" HorizontalAlignment="Left" Margin="40,47,0,0" VerticalAlignment="Top" Width="148" RenderTransformOrigin="0.133,0.435" Click="Btn_GetMyData_Click" Height="32"/>
+        <TextBox x:Name="textBox" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="147" Margin="40,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177"/>
+
+    </Grid>
+</Window>
