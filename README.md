@@ -15,3 +15,4 @@
 	TestPartial : Learning Partial 
 	TestMyIEnamerable : Learning inherit IEnamerable
 	TestOpenTKMtxPrj : Learning OpenTK MatrixMode.Projection, Matrix4.CreateOrthographic
+	TestWpfDataGridCmBox : Learning WPF DataGrid Combobox/CheckBox

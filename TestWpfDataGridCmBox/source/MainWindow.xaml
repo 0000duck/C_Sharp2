@@ -1,0 +1,31 @@
+﻿<Window x:Class="TestWpfDataGridCmBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWpfDataGridCmBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+
+    </Window.Resources>
+
+    <Grid>
+        <!-- AutoGenerateColumns="False" は列自動挿入しない -->
+        <!-- CanUserAddRows="False" は 最終新規行非表示 -->
+        <DataGrid AutoGenerateColumns="False" CanUserAddRows="False" Name="myGrid" Margin="10,10,234,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}" Width="100" IsReadOnly="True" />
+                <DataGridCheckBoxColumn Header="Used" Binding="{Binding Used,  Mode=TwoWay}" Width="40" />
+                <DataGridComboBoxColumn Header="Mode"  x:Name="myGridCmBoxData" 
+                    SelectedValueBinding="{Binding Mode, Mode=TwoWay}"  Width="*"
+                    DisplayMemberPath="{Binding Mode}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Name="BtnShowDataGirdData"  
+          Content="Show DataGridData"  
+          Click="BtnShowDataGirdData_Click" Margin="298,118,10,143" />
+    </Grid>
+</Window>
